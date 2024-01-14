@@ -320,6 +320,15 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   z-index: 10;
 }
+.background-image-information {
+  background-image: url(images/lau-lalo.jpg);
+  background-position-y: 45%;
+}
+@media screen and (max-width: 480px) {
+}
+.background-image-information {
+  background-position-y: 11%;
+}
 @media screen and (max-width: 768px) {
   .fh5co-cover {
     height: 600px;
