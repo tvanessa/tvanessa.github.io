@@ -105,6 +105,12 @@ h1, h2, h3, h4, h5, h6, figure {
   line-height: 40px;
   font-family: "Sacramento", Arial, serif;
 }
+
+@media screen and (max-width: 480px) {
+  fh5co-nav #fh5co-logo{
+    font-size: 25px;
+  }
+}
 .fh5co-nav a {
   padding: 5px 10px;
   color: #fff;
@@ -114,11 +120,7 @@ h1, h2, h3, h4, h5, h6, figure {
     display: none;
   }
 }
-@media screen and (max-width: 480px) {
-  fh5co-nav #fh5co-logo{
-    font-size: 25px;
-  }
-}
+
 .fh5co-nav ul {
   padding: 0;
   margin: 2px 0 0 0;
@@ -449,7 +451,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-counter .event-wrap i,
 #fh5co-event .event-wrap i {
-  color: #f6d8ae;
+  color: white;
   font-size: 20px;
 }
 #fh5co-counter .event-wrap .event-col,
