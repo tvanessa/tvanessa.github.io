@@ -689,6 +689,8 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 480px) {
   #fh5co-gallery-list li {
     margin-left: 0;
+    min-height: 200px;
+    width: 50%;
   }
 }
 #fh5co-gallery-list li a {
@@ -758,7 +760,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 480px) {
   #fh5co-gallery-list li.one-third {
-    width: 100%;
+    width: 50%;
   }
 }
 
