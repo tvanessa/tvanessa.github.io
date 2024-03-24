@@ -700,6 +700,11 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   display: block;
 }
+@media screen and (max-width: 480px) {
+  #fh5co-gallery-list li a{
+    max-height: 200px;
+  }
+}
 #fh5co-gallery-list li a:before {
   position: absolute;
   top: 0;
