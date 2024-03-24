@@ -15,7 +15,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.7;
-  color: #0A2463;
+  color: #2a324b;
   background: #fff;
 }
 
@@ -47,7 +47,7 @@ body {
 }
 
 a {
-  color: #DA4167;
+  color: #4e5346;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 14px;
   padding: 30px 10px;
   text-transform: uppercase;
-  color: #F4D35E;
+  color: #dcc48e;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -444,7 +444,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-counter .event-wrap h3,
 #fh5co-event .event-wrap h3 {
   font-size: 20px;
-  color: #f6d8ae;
+  color: #d19f51;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   display: block;
   padding-bottom: 20px;
@@ -690,6 +690,7 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-gallery-list li {
     margin-left: 0;
     min-height: 200px;
+    max-height: 200px;
     width: 50%;
   }
 }
@@ -761,6 +762,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 480px) {
   #fh5co-gallery-list li.one-third {
     width: 50%;
+    max-height: 200px;
   }
 }
 
@@ -967,7 +969,7 @@ form label {
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: rgba(10, 36, 99, 0.8);
+  background: rgba(78, 83, 70, 0.8);
   margin: 0 4px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1068,7 +1070,7 @@ form label {
   font-size: 20px;
   background: #fff;
   padding: 20px;
-  color: #DA4167;
+  color: #d19f51;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1091,7 +1093,7 @@ form label {
 }
 .couple-half h3 {
   font-family: "Sacramento", Arial, serif;
-  color: #DA4167;
+  color: #9b7243;
   font-size: 30px;
 }
 .couple-half .groom, .couple-half .bride {
@@ -1206,7 +1208,7 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #DA4167;
+  color: #2a324b;
   font-family: "Sacramento", Arial, serif;
 }
 @media screen and (max-width: 768px) {
