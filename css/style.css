@@ -53,7 +53,7 @@ a {
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #DA4167;
+  color: #b3c0a4;
   outline: none;
   text-decoration: none;
 }
@@ -71,17 +71,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #DA4167;
+  background: #b3c0a4;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #DA4167;
+  background: #b3c0a4;
 }
 
 ::selection {
   color: #fff;
-  background: #DA4167;
+  background: #b3c0a4;
 }
 
 .fh5co-nav {
@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 .fh5co-nav ul li.btn-cta a {
-  color: #DA4167;
+  color: #b3c0a4;
 }
 .fh5co-nav ul li.btn-cta a span {
   background: #fff;
@@ -395,7 +395,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-counter .fh5co-heading span,
 #fh5co-event .fh5co-heading span {
-  color: #0A2463;
+  color: #2a322a;
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 2px;
@@ -489,7 +489,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: absolute;
   content: " ";
   width: 1px;
-  background-color: #F6D8AE;
+  background-color: #dcc48e;
   left: 50%;
   margin-left: 0px;
 }
@@ -568,7 +568,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 16px;
   left: 50%;
   margin-left: -80px;
-  background-color: #F6D8AE;
+  background-color: #dcc48e;
   z-index: 100;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1081,7 +1081,7 @@ form label {
 }
 @media screen and (max-width: 768px) {
   .heart {
-    display: none;
+    position: static;
   }
 }
 
@@ -1706,8 +1706,8 @@ form label {
   border: 2px solid #F4D35E;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #f366a3 !important;
-  border-color: #f366a3 !important;
+  background: #b3c0a4 !important;
+  border-color: #b3c0a4 !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
@@ -1720,40 +1720,40 @@ form label {
 }
 
 .btn-success {
-  background: #5cb85c;
+  background: #ebd1a2;
   color: #fff;
-  border: 2px solid #5cb85c;
+  border: 2px solid #ebd1a2;
 }
 .btn-success:hover, .btn-success:focus, .btn-success:active {
-  background: #4cae4c !important;
-  border-color: #4cae4c !important;
+  background: #ebd1a2 !important;
+  border-color: #ebd1a2 !important;
 }
 .btn-success.btn-outline {
   background: transparent;
-  color: #5cb85c;
-  border: 2px solid #5cb85c;
+  color: #ebd1a2;
+  border: 2px solid #ebd1a2;
 }
 .btn-success.btn-outline:hover, .btn-success.btn-outline:focus, .btn-success.btn-outline:active {
-  background: #498467;
+  background: #b3c0a4;
   color: #fff;
 }
 
 .btn-info {
-  background: #498467;
+  background: #b3c0a4;
   color: #fff;
-  border: 2px solid #498467;
+  border: 2px solid #b3c0a4;
 }
 .btn-info:hover, .btn-info:focus, .btn-info:active {
-  background: #498467 !important;
-  border-color: #498467 !important;
+  background: #b3c0a4 !important;
+  border-color: #b3c0a4 !important;
 }
 .btn-info.btn-outline {
   background: transparent;
-  color: #498467;
-  border: 2px solid #498467;
+  color: #b3c0a4;
+  border: 2px solid #b3c0a4;
 }
 .btn-info.btn-outline:hover, .btn-info.btn-outline:focus, .btn-info.btn-outline:active {
-  background: #498467;
+  background: #b3c0a4;
   color: #fff;
 }
 
@@ -1777,21 +1777,21 @@ form label {
 }
 
 .btn-danger {
-  background: #d9534f;
+  background: #9b7243;
   color: #fff;
-  border: 2px solid #d9534f;
+  border: 2px solid #9b7243;
 }
 .btn-danger:hover, .btn-danger:focus, .btn-danger:active {
-  background: #d43f3a !important;
-  border-color: #d43f3a !important;
+  background: #9b7243 !important;
+  border-color: #9b7243 !important;
 }
 .btn-danger.btn-outline {
   background: transparent;
-  color: #d9534f;
-  border: 2px solid #d9534f;
+  color: #9b7243;
+  border: 2px solid #9b7243;
 }
 .btn-danger.btn-outline:hover, .btn-danger.btn-outline:focus, .btn-danger.btn-outline:active {
-  background: #d9534f;
+  background: #9b7243;
   color: #fff;
 }
 
