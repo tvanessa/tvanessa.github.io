@@ -331,7 +331,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .background-image-questions {
-  background-position-y: 55%;
+  background-position-y: 29%;
 }
 @media screen and (max-width: 480px) {
   .background-image-questions {
