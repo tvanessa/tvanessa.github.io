@@ -1871,30 +1871,6 @@ form label {
   opacity: 0;
 }
 
-.imagecarousel {
-  position: relative;
-  height: 233px;
-  margin-bottom: 30px;
-  display: flex;
-  width: fit-content;
-  gap: 20px;
-}
 
-.imagecarousel img {
-  margin: 0px 0px;
-}
-
-.imagecarousel {
-  animation: bannermove 50s linear infinite;
-}
-
-@keyframes bannermove {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
 
 /*# sourceMappingURL=style.css.map */
