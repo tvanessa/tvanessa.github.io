@@ -981,6 +981,11 @@ form label {
   border-radius: 50%;
   position: relative;
   animation: pulse 1s ease infinite;
+} @media screen and (max-width: 480px) {
+  .simply-section{
+    width: 50px;
+    height: 50px;
+  }
 }
 
 @keyframes pulse {
