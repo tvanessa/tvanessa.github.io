@@ -327,7 +327,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 480px) {
   .background-image-information {
-    background-position-y: 11%;
+    background-position-y: 25%;
   }
 }
 .background-image-questions {
@@ -335,7 +335,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 480px) {
   .background-image-questions {
-    background-position-y: 30%;
+    background-position-y: 0%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -872,7 +872,7 @@ form label {
 #fh5co-header .display-tc h1,
 #fh5co-counter .display-tc h1,
 .fh5co-cover .display-tc h1 {
-  margin-bottom: 0px;
+  margin-bottom: 2em;
   font-size: 100px;
   line-height: 1.5;
   font-family: "Sacramento", Arial, serif;
