@@ -14,7 +14,7 @@ body {
   font-family: "Work Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.7;
+  line-height: 1.9;
   color: #2a324b;
   background: #fff;
 }
@@ -965,14 +965,14 @@ form label {
 
 .simply-countdown {
   /* The countdown */
-  margin-bottom: 2em;
+  margin-top: 7em;
 }
 
 .simply-countdown > .simply-section {
   /* coutndown blocks */
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   background: rgba(78, 83, 70, 0.8);
   margin: 0 4px;
   -webkit-border-radius: 50%;
@@ -981,12 +981,7 @@ form label {
   border-radius: 50%;
   position: relative;
   animation: pulse 1s ease infinite;
-} @media screen and (max-width: 480px) {
-  .simply-section{
-    width: 50px;
-    height: 50px;
-  }
-}
+} 
 
 @keyframes pulse {
   0% {
