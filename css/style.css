@@ -334,6 +334,14 @@ h1, h2, h3, h4, h5, h6, figure {
     background-position-y: 25%;
   }
 }
+.background-image-registry {
+  background-position-y: 48%;
+}
+@media screen and (max-width: 480px) {
+  .background-image-registry {
+    background-position-y: 69%;
+  }
+}
 .background-image-questions {
   background-position-y: 36%;
 }
