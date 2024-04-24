@@ -755,8 +755,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-gallery-list li a .case-studies-summary span {
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-size: 13px;
+  line-height: 1;
   color: rgba(246, 216, 174, 0.7);
 }
 #fh5co-gallery-list li a .case-studies-summary h2 {
