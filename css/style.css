@@ -712,6 +712,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   width: 100%;
   display: block;
+  line-height: 1.0;
 }
 @media screen and (max-width: 480px) {
   #fh5co-gallery-list li a{
